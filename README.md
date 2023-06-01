@@ -1,4 +1,4 @@
-# AirBnB Clone - The Console
+# 0x06. AirBnB clone - Web dynamic
 The console is the first segment of the AirBnB project at Holberton School that will collectively cover fundamental concepts of higher level programming. The goal of AirBnB project is to eventually deploy our server a simple copy of the AirBnB Website(HBnB). A command interpreter is created in this segment to manage objects for the AirBnB(HBnB) website.
 
 #### Functionalities of this command interpreter:
@@ -162,3 +162,20 @@ David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twit
 Second part of Airbnb: Joann Vuong
 ## License
 Public Domain. No copy write protection. 
+
+## Resources
+[selector](https://jquery-tutorial.net/selectors/using-elements-ids-and-classes/)
+
+[Get and set content](https://jquery-tutorial.net/dom-manipulation/getting-and-setting-content/)
+
+[Manipulate CSS classes](https://jquery-tutorial.net/dom-manipulation/getting-and-setting-css-classes/)
+
+[Manpulating DOM elements](https://jquery-tutorial.net/dom-manipulation/the-append-and-prepend-methods/)
+
+[Document ready](https://learn.jquery.com/using-jquery-core/document-ready/)
+
+[introduction](https://jquery-tutorial.net/ajax/introduction/)
+
+[https://jquery-tutorial.net/ajax/introduction/](https://jquery-tutorial.net/ajax/the-get-and-post-methods/)
+
+[HTTP access control (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
