@@ -181,3 +181,37 @@ Public Domain. No copy write protection.
 [https://jquery-tutorial.net/ajax/introduction/](https://jquery-tutorial.net/ajax/the-get-and-post-methods/)
 
 [HTTP access control (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+
+## import jQuery
+```bash
+<head>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+```
+
+## install Flasgger
+
+```bash
+sudo apt-get install -y python3-lxml
+sudo pip3 install flask_cors # if it was not installed yet
+sudo pip3 install flasgger
+```
+
+## jsonschema exception
+```bash
+sudo pip3 uninstall -y jsonschema
+sudo pip3 install jsonschema==3.0.1
+```
+
+## No module named 'pathlib2'
+```bash
+sudo pip3 install pathlib2
+```
+
+## Expose ports from your Vagrant
+
+- In your Vagrantfile, add this line for each port forwarded
+- # I expose the port 5001 of my vm to the port 5001 on my computer
+config.vm.network :forwarded_port, guest: 5001, host: 5001 
+
+![Airbnb](https://s3.amazonaws.com/intranet-projects-files/concepts/74/hbnb_step5.png)
